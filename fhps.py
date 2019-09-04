@@ -65,8 +65,7 @@ def download():
 		time.sleep(0.001)
 
 def main():
-	#off_v = get_version_offline()
-	off_v = 1567609835
+	off_v = get_version_offline()
 	on_v = get_version_online()
 	create_folder()
 	if check_version(on_v, off_v) == True:
